@@ -1,0 +1,25 @@
+Task 1a:
+Assigned the target sum to count variable. Used two loops, i & j ,the inner loop starts
+from i+1, for each loop i remains fix while the j iterates over the whole list to check
+if the sum of any two element inside the list is equal to count.
+
+Task 1b:
+As the given list is in ascending order. I set two pointers i at 0th index and j at last 
+index inside the loop it checks if the sum of the two element is lesser than or greater
+than the target sum. If it is less then we increase the i pointer by 1 index or if it
+is less we decrease the j pointer by 1 index.
+
+Task 2a:
+Merged the list using the `+` sign. Then used python's sorted method to sort the merged 
+list
+
+Task 2b:
+Set two pointers both start at 0 for both the list. In a while loop checks the smallest
+integer, and appends the integer to a new array and increases the pointer for that list.
+When the iteration of one list is completes, it merges the rest of the other list using
+list splicing.
+
+Task 3:
+Sorted the time slots by their end time. After that I run a loop that checks if the
+person's current task's ending time is less than the next task's starting time. If yes
+it appends the task inside the task list.
